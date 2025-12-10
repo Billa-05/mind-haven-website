@@ -1,45 +1,84 @@
 body {
     margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    background: #f6f7fb;
+    font-family: "Poppins", sans-serif;
+    background-color: #FFF4EC;
     color: #333;
 }
 
 header {
     text-align: center;
-    padding: 60px 20px;
-    background: linear-gradient(140deg, #ffd6e8, #e4f1ff);
+    padding: 40px;
+    background: linear-gradient(135deg, #FFC6A5, #FFD9C0);
+    color: #5A3E36;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
 }
 
-header h1 {
-    font-size: 2.5rem;
-    margin-bottom: 10px;
+h1 {
+    font-size: 40px;
+    margin-bottom: 5px;
 }
 
-header p {
-    font-size: 1.2rem;
-}
-
-.btn {
-    padding: 10px 20px;
-    background: #ff91c1;
-    color: white;
-    display: inline-block;
-    margin-top: 20px;
-    border-radius: 25px;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.about {
-    padding: 40px 20px;
+.hero {
     text-align: center;
+    padding: 60px 20px;
+}
+
+.hero h2 {
+    font-size: 32px;
+    color: #5A3E36;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #7A4F45;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 14px 28px;
+    background-color: #FFB38A;
+    color: white;
+    border-radius: 30px;
+    font-size: 18px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background-color: #ff9a63;
+}
+
+.features {
+    padding: 40px 20px;
+}
+
+.features h2 {
+    text-align: center;
+    color: #5A3E36;
+    font-size: 28px;
+}
+
+.feature-box {
+    background: white;
+    padding: 20px;
+    margin: 15px auto;
+    max-width: 650px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+feature-box h3 {
+    color: #FF8C5A;
 }
 
 footer {
     text-align: center;
     padding: 20px;
-    margin-top: 40px;
-    background: #ddd;
+    background: #FFE1D0;
+    margin-top: 30px;
+    color: #5A3E36;
 }
